@@ -1,0 +1,53 @@
+.cards {
+    margin-left: -17%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(380px, 380px));
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    font-family: sans-serif;
+    padding-top: 1.5rem;
+}
+
+.card {
+    display: inline-block;
+    border: 2px  #000000;
+    border-radius: 4px;
+    padding: .5rem;
+    width: 400px;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+.card-head {
+    display: inline;
+}
+
+.card-head p {
+    display: inline;
+    float: right;
+    font-size: small;
+}
+
+.card-head img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+}
+
+.card-content {
+    padding-top: 15%;
+    display: block;
+}
+
+.card-content p {
+    overflow-wrap: anywhere;
+    font-size: medium;
+}
+
+.card:hover {
+    background-color: white;
+    transition: all 0.4 ease;
+    box-shadow: 1px 1px 3px 1px #000;
+}
