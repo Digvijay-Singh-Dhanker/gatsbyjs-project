@@ -12,9 +12,9 @@ const Header = ({ siteTitle }) => (
       <div className="right">
         <ul>
           <li> {/*Pop up */} </li>
-          <li><a >twitter</a></li>
-          <li><a >newsletter</a></li>
-          <li><a >contact</a></li>
+          <li><a href={"https://twitter.com/mddanishyusuf"} >twitter</a></li>
+          <li><a href={"https://public-apis.io/courses"} >newsletter</a></li>
+          <li><a href={"https://public-apis.io/contact"}>contact</a></li>
         </ul>
       </div>
     </div>
@@ -30,17 +30,17 @@ const Header = ({ siteTitle }) => (
       </div>
       <div className="left">
         <ul>
-          <li><a href={{}} ><AiOutlineRead/>Learn</a></li>
-          <li><a href={{}}><AiOutlineVideoCamera/>Courses</a></li>
-          <li><a href={{}}><AiOutlineBars/>Blog</a></li>
+          <li><a href={"https://public-apis.io/learn"} ><AiOutlineRead/>Learn</a></li>
+          <li><a href={"https://public-apis.io/courses"}><AiOutlineVideoCamera/>Courses</a></li>
+          <li><a href={"https://public-apis.io/blog"}><AiOutlineBars/>Blog</a></li>
         </ul>
       </div>
       <div className="right">
         <ul>
           
           <li> {/*Pop up */} </li>
-          <li><a href={{}}><AiTwotoneThunderbolt/>NoCodeAPI</a></li>
-          <li><a href={{}}><AiOutlineAppstoreAdd/>submit api -49$</a></li>
+          <li><a href={"https://nocodeapi.com/"} target="_blank"><AiTwotoneThunderbolt/>NoCodeAPI</a></li>
+          <li><a href={"https://public-apis.io/submit"}><AiOutlineAppstoreAdd/>submit api -49$</a></li>
           
         </ul>
       </div>
